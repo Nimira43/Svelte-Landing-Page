@@ -1,5 +1,7 @@
 <script>
   import '../app.css'
+  let {children} = $props()
 </script>
 
-<slot />
+<h1>Web Development by NimiraTech</h1>
+{@render children()}
